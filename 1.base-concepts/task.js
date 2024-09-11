@@ -11,8 +11,6 @@ function solveEquation(a, b, c) {
     const root = -b / (2 * a);
     arr = [root];
   } else {
-    arr = [];
-  }
   return arr;
 }
 
