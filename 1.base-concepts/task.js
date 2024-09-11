@@ -10,7 +10,6 @@ function solveEquation(a, b, c) {
   } else if (d === 0) {
     const root = -b / (2 * a);
     arr = [root];
-  } else {
   return arr;
 }
 
