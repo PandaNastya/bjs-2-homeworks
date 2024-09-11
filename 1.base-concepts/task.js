@@ -9,7 +9,7 @@ function solveEquation(a, b, c) {
     arr = [root1, root2];
   } else if (d === 0) {
     const root = -b / (2 * a);
-    arr = [root];
+    arr = [root];}
   return arr;
 }
 
